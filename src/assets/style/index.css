@@ -1,6 +1,9 @@
-body {
-    background-color: #eee;
-    color: #555;
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .todolist {
@@ -11,6 +14,8 @@ body {
     border: 1px solid #ddd;
     border-radius: 2px;
     position: relative;
+
+   
 }
 
 .todolist h1 {
